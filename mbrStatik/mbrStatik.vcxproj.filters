@@ -27,5 +27,8 @@
     <ClCompile Include="destruktor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chainfuction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

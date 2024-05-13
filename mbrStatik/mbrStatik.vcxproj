@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chainfuction.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="destruktor.cpp" />
     <ClCompile Include="mbrStatik.cpp" />
