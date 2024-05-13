@@ -6,4 +6,7 @@ class buku
 
 public:
 	buku setJudul(string Judul)
+	{
+		this->judul = judul;
+	}
 };
