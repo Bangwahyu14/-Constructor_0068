@@ -4,4 +4,5 @@ class buku
 {
 	string judul;
 
+public:
 };
