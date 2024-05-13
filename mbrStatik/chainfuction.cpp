@@ -11,4 +11,7 @@ public:
 		return *this; // chain funcation
 	}
 	string getjudul()
+	{
+		return this->judul;
+	}
 };
