@@ -32,5 +32,19 @@ public:
 		nim = iNim;
 		nama = iNama;
 	};
+	int main()
+	{
+		Mahasiswa mhs1;
+		Mahasiswa mhs2(123);
+		Mahasiswa mhs3("wahyu agung");
+		Mahasiswa mhs4(15,"wahyu");
+
+		mhs1.cetak();
+
+		mhs2.cetak();
+		mhs3.cetak();
+		mhs4.cetak();
+		return 0;
+	}
 
 };
