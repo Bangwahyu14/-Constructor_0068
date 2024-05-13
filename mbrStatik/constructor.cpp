@@ -18,5 +18,9 @@ public:
 	};
 	Mahasiswa(string);
 	Mahasiswa(int iNim, string iNim);
-	void cetak();
+	void cetak() {
+		cout << "NIM  =" << nim << endl;
+		cout << "Nama =" << nama << endl;
+		cout << endl;
+	}
 };
