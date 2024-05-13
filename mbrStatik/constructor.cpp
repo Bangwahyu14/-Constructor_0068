@@ -7,4 +7,9 @@ class Mahasiswa
 public:
 	int nim;
 	string nama;
+
+	Mahasiswa() {
+		nim = 0;
+		nama = "";
+	};
 };
