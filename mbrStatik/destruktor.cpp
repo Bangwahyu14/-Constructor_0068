@@ -36,3 +36,7 @@ void angka::isiData() {
 		cout << i << " = "; cin >> arr[i];
 	}
 }
+
+int main() {
+	angka belajarcpp(3); //constructor di panggil
+}
