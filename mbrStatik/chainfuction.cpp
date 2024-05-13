@@ -10,5 +10,5 @@ public:
 		this->judul = judul;
 		return *this; // chain funcation
 	}
-
+	string getjudul()
 };
