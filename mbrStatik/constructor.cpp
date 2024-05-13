@@ -14,6 +14,9 @@ public:
 	};
 	Mahasiswa(int iNim)
 	{
-		nim = iNIm;
+		nim = iNim;
 	};
+	Mahasiswa(string);
+	Mahasiswa(int iNim, string iNim);
+	void cetak();
 };
