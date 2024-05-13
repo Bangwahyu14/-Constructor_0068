@@ -17,10 +17,13 @@ public:
 		nim = iNim;
 	};
 	Mahasiswa(string);
-	Mahasiswa(int iNim, string iNim);
+	Mahasiswa(int iNim, string iNama);
 	void cetak() {
 		cout << "NIM  =" << nim << endl;
 		cout << "Nama =" << nama << endl;
 		cout << endl;
+	}
+	Mahasiswa::Mahasiswa(string iNama) {
+		nama = iNama;
 	}
 };
