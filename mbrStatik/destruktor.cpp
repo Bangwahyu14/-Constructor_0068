@@ -1,4 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class angka
+class angka {
+private:
+	int* arr;
+	int panjang:
+};
